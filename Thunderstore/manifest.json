@@ -1,12 +1,9 @@
 ﻿{
-	"name": "MyFirstMod",
-	"version_number": "1.0.0",
-	"website_url": "",
-	"description": "My first Mod",
-	"dependencies": [
-		"bbepis-BepInExPack-5.4.2108",
-		"RiskofThunder-HookGenPatcher-1.2.3",
-		"RiskofThunder-R2API_Items-1.0.1",
-		"RiskofThunder-R2API_Language-1.0.0"
-	]
+	"name": "AspectIndicator",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/Pascal-Stellmacher/AspectIndicator",
+    "description": "Highlights Elite Aspect Equipment drops with a distinct color. Works only when playing with the Artifact of Command!",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.2100"
+    ]
 }
