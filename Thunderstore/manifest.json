@@ -1,6 +1,6 @@
 ﻿{
 	"name": "AspectIndicator",
-    "version_number": "1.0.0",
+    "version_number": "1.0.1",
     "website_url": "https://github.com/Pascal-Stellmacher/AspectIndicator",
     "description": "Highlights Elite Aspect Equipment drops with a distinct color. Works only when playing with the Artifact of Command!",
     "dependencies": [

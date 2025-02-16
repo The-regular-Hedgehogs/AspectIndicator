@@ -14,7 +14,7 @@ namespace AspectIndicator
         public const string PluginGUID = PluginAuthor + "." + PluginName;
         public const string PluginAuthor = "AllOfThem";
         public const string PluginName = "AspectIndicator";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginVersion = "1.0.1";
 
         public void Awake()
         {
