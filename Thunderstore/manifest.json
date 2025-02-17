@@ -1,9 +1,10 @@
 ﻿{
-	"name": "AspectIndicator",
-    "version_number": "1.0.1",
-    "website_url": "https://github.com/Pascal-Stellmacher/AspectIndicator",
-    "description": "Highlights Elite Aspect Equipment drops with a distinct color. Works only when playing with the Artifact of Command!",
-    "dependencies": [
-        "bbepis-BepInExPack-5.4.2100"
-    ]
+  "name": "AspectIndicator",
+  "version_number": "1.0.2",
+  "website_url": "https://github.com/Pascal-Stellmacher/AspectIndicator",
+  "description": "Highlights Equipment Command Cube Drops containing Elite Aspects",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.2100",
+    "tristanmcpherson-R2API-5.0.0"
+  ]
 }
