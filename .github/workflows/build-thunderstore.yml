@@ -1,0 +1,29 @@
+name: Build Thunderstore ZIP
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  zip-thunderstore:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set ZIP Filename
+        run: echo "ZIP_NAME=$(basename ${{ github.repository }})" >> $GITHUB_ENV
+
+      - name: Create ZIP Archive
+        run: |
+          cd Thunderstore
+          zip -r "../${{ env.ZIP_NAME }}.zip" .
+
+      - name: Upload ZIP Artifact
+        uses: actions/upload-artifact@v4
+
+        with:
+          name: ${{ env.ZIP_NAME }}
+          path: ${{ env.ZIP_NAME }}.zip
