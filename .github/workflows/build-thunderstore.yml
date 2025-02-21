@@ -13,8 +13,11 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      - name: Set Artifact Name
+        run: echo "ARTIFACT_NAME=$(basename ${{ github.repository }})" >> $GITHUB_ENV
+
       - name: Upload Thunderstore Folder
         uses: actions/upload-artifact@v4
         with:
-          name: Thunderstore
+          name: ${{ env.ARTIFACT_NAME }}
           path: Thunderstore
